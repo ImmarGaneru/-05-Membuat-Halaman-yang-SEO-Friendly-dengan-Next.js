@@ -1,9 +1,13 @@
 import type { Metadata } from 'next';
+import Image from "next/image";
+import profilePict from '../../public/images/KTM.png';
 
 export const metadata: Metadata = {
   title: 'Tentang Saya',
   description: 'Halaman tentang saya',
   openGraph: {
+    images: 'https://example.com/default-image.jpg',
+    url: 'https://example.com',
     title: 'Tentang Saya',
     description: 'Halaman tentang saya.'
   },
@@ -12,6 +16,10 @@ export const metadata: Metadata = {
 export default function Home(){
   return (
       <div className="mt-16 px-8 mb-16 flex flex-col items-center text-center">
+          <div className="relative w-32 h-32 md:w-40 md:h-40 mb-6">
+              <div className="absolute inset-0 w-full h-full rounded-full bg-blue-500 blur-2xl opacity-30 z-0"/>
+              <Image src={profilePict} alt="picture" className="rounded-full shadow-lg border-white z-10 relative" layout="fill" objectFit="cover"/>
+          </div>
           <header>
               <h1 className="font-bold text-4xl text-zinc-800">Tentang Saya</h1>
               <p className="text-lg text-zinc-600 mt-4 max-w-2xl">

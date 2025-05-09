@@ -32,17 +32,19 @@ This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-appl
 | Nama |  Lalu Immaratul Ardhi Ganeru |
 | Kelas | TI - 3B |
 
-## Persiapan Lingkungan
-![img.png](images/img.png)
-## Membuat Halaman Website
-![img_1.png](images/img_1.png)
-## Membuat Layout dan Navigasi
-![img_2.png](images/img_2.png)
-## Membuat Halaman Proyek dengan Grid Responsif
-![img_3.png](images/img_3.png)
-## Tugas 1
-Modifikasi halaman "Esai" dengan Grid daftar artikel yang telah ditulis.
-![img_4.png](images/img_4.png)
-## Tugas 2
-Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik
-![img_5.png](images/img_5.png)
+## Pengujian SEO melalui inspect elements
+### Tentang Saya
+![1.png](images/1.png)
+### Projek
+![2.png](images/2.png)
+### Esai
+![3.png](images/3.png)
+
+## Tugas
+Memeriksa performa SEO dengan menggunakan tools lighthouse chrome
+### Tentang Saya
+![4.png](images/4.png)
+### Projek
+![5.png](images/5.png)
+### Esai
+![6.png](images/6.png)
